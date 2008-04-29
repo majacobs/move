@@ -1,0 +1,30 @@
+--set jumper to -1
+wwwd wswa
+
+--set asww=2
+wwwa wwss
+wwwa wwsd
+wwdw asww
+
+--set aswa=8
+wwdw wwss
+wwss wwsd
+wwdw aswa
+
+--get 2+8=10
+aswa wawa
+asww waws
+
+--set waaw=1024^2
+wwwa wwss
+wawd wwsd
+wwdw waad
+wwdw wasw
+wasa waaw
+
+--init subtractor
+wwwa waaa
+
+--do the loop
+waas waaw
+waas wsww

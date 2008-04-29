@@ -1,0 +1,100 @@
+wwwa wwss
+wwwa wwsd
+wwdw asww
+wwdw wwss
+wwdw aswa
+wwdw wwss
+wwdw asws
+wwdw wwss
+wwdw aswd
+wwdw wwss
+wwdw asaw
+wwdw wwss
+wwdw asaa
+wwdw wwss
+wwdw asas
+
+----set asad = 100
+asaa wawa
+asaw waws
+wawd wawa
+aswa waws
+wawd asad
+
+----set assw = 108
+asad wawa
+asws waws
+wawd assw
+
+----set assa = 111
+assw wawa
+asww waws
+wawd wawa
+wwwa waws
+wawd assa
+
+----print 'H'
+asaa wawa
+asws waws
+wawd wsws
+wwwa wswd
+
+----print 'e'
+asad wawa
+wwwa waws
+wawd wsws
+wwwa wswd
+
+----print 'l'
+assw wsws
+wwwa wswd
+
+----print 'l'
+assw wsws
+wwwa wswd
+
+----print 'o'
+assa wsws
+wwwa wswd
+
+----print ','
+assw waaw
+asaa waaa
+waas wsws
+wwwa wswd
+
+----print ' '
+asaw wsws
+wwwa wswd
+
+----print 'w'
+assa wawa
+asws waws
+wawd wsws
+wwwa wswd
+
+----print 'o'
+assa wsws
+wwwa wswd
+
+----print 'r'
+assa wawa
+asww waws
+wawd wawa
+wwwa waws
+wawd wsws
+wwwa wswd
+
+----print 'l'
+assw wsws
+wwwa wswd
+
+----print 'd'
+asad wsws
+wwwa wswd
+
+----print '!'
+asaw wawa
+wwwa waws
+wawd wsws
+wwwa wswd

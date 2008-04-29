@@ -1,0 +1,41 @@
+wwwa wwss
+wwwa wwsd
+wwdw asww
+wwdw wwss
+wwdw aswa
+wwdw wwss
+wwdw asws
+wwdw wwss
+wwdw aswd
+wwdw wwss
+wwdw asaw
+wwdw wwss
+wwdw asaa
+wwdw wwss
+wwdw asas
+
+----set ssaa=32 //number of loops
+wwwa wwss
+wwwa wwsd
+wwdw wwss
+wwss wwsd
+wwdw wwss
+wwdw ssaa
+
+----set wswa=-7 // instructs to go back
+asww wawa
+aswa waws
+wawd wawa
+wwwa waws
+wawd wsaw
+wsaa wswa
+
+asaa wawa
+asws waws
+wawd wsws
+wwwa wswd
+
+ssaa waaw
+wwwa waaa
+waas ssaa
+ssaa wsww
