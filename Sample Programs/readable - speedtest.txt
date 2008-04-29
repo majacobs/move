@@ -1,22 +1,24 @@
+to_shift_left wwss
+%%
 --set jumper to -1
 wwwd wswa
 
 --set asww=2
-wwwa wwss
+wwwa to_shift_left
 wwwa wwsd
 wwdw asww
 
 --set aswa=8
-wwdw wwss
-wwss wwsd
-wwdw aswa
+wwdw		to_shift_left
+to_shift_left	wwsd
+wwdw		aswa
 
 --get 2+8=10
 aswa wawa
 asww waws
 
 --set waaw=1024^2
-wwwa wwss
+wwwa to_shift_left
 wawd wwsd
 wwdw waad
 wwdw wasw
