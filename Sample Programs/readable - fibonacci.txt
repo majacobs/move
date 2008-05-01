@@ -1,0 +1,121 @@
+----Fibonacci----
+
+zero		wwww
+one			wwwa
+
+add_in1		wawa
+add_in2		waws
+add_out		wawd
+
+mult_in1	waad
+mult_in2	wasw
+mult_out	wasa
+
+neg_in		wsaw
+neg_out		wsaa
+
+prev_pos	waaw
+decr		waaa
+cur_pos		waas
+
+sl_in1		wwss
+sl_in2		wwsd
+sl_out		wwdw
+
+print_buf	wsws
+print_on	wswd
+
+jump_on		wsww
+jump_dist	wswa
+
+newline		asww
+
+chk_eq		wsas
+equal		wssw
+
+even_jump	asaa
+odd_jump	asas
+back_jump	asad
+
+pc			dddd
+four		ddds
+
+%%
+
+-make 2
+one			sl_in1
+one			sl_in2
+sl_out		add_in1
+
+-make 3
+pc			odd_jump
+pc			four
+
+-make 8
+sl_out		sl_in1
+sl_in1		sl_in2
+sl_out		add_in2
+
+-copy 10 to newline
+add_out		newline
+
+four		add_in1
+add_out		even_jump
+add_out		add_in2
+add_out		add_in2
+odd_jump	add_in1
+add_out		neg_in
+neg_out		back_jump
+
+one			decr
+
+-init counter
+newline		mult_in1
+newline		mult_in2
+mult_out	prev_pos
+
+-setup base case
+zero		add_in1
+one			add_in2
+
+-decrement
+cur_pos		prev_pos
+
+-newline
+newline		print_buf
+one			print_on
+
+-print number
+add_in1		print_buf
+newline		print_on
+
+-get next number
+add_out		add_in1
+
+-if counter=0 jump out
+cur_pos		chk_eq
+even_jump	jump_dist
+equal		jump_on
+
+-decrement
+cur_pos		prev_pos
+
+-newline
+newline		print_buf
+one			print_on
+
+-print number
+add_in2		print_buf
+newline		print_on
+
+-get next number
+add_out		add_in2
+
+-if counter=0 jump out
+cur_pos		chk_eq
+odd_jump	jump_dist
+equal		jump_on
+
+-go back
+back_jump	jump_dist
+one			jump_on
