@@ -1,11 +1,12 @@
 import sys
 
 if (len(sys.argv) is not 3):
-	print "Usage: python compile.py <input filename> <output filename>"
+	print "Usage: python %s <input filename> <output filename>" % sys.argv[0]
 	sys.exit(0)
 
 f = open(sys.argv[1], 'r')
-lines = [x.strip() for x in f.readlines()]
+raw_lines = [x.strip() for x in f.readlines()]
+lines = []
 f.close()
 
 defines = {}
@@ -17,13 +18,9 @@ def swap_em(x):
 	else:
 		return x
 
-for line in lines:
-	if line == '':
-		lines.remove(line)
-
-for line in lines:
-	if line[0] == '-':
-		lines.remove(line)
+for l in raw_lines:
+	if not (l == '' or l[0] == '-'):
+		lines.append(l)
 
 backward = False
 try:
