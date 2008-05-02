@@ -1,0 +1,21 @@
+:place
+let X = 10
+
+# do the loop
+for I from 1 to X
+	print I
+	print "-"
+endfor
+
+if X = 10
+	print "poop"
+endif
+
+let J = 0
+let FOO = "blah\n"
+while J < 50
+	print FOO
+	J = J + 1
+endwhile
+
+goto place
